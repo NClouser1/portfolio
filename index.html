@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <nav>
+            <ul class="menu_items">
+                <li><a href="#">Noah Clouser</a></li>
+            </ul>  
+            <ul class="menu_items">
+                <li><a href="#snapshot" data-item="Home">Home</a></li>
+                <li><a href="#about" data-item="About">About</a></li>
+                <li><a href="#projects" data-item="Projects">Projects</a></li>
+                <li><a href="#contact" data-item="Contact">Contact</a></li>
+            </ul>
+        </nav> -->
+    <!-- Background? -->
+    <section id="snapshot">
+        <div class="title">
+            <!-- Animate zoom in and out -->
+            <h1>HEY, I'M <span class="name">NOAH CLOUSER</span></h1>
+        </div>
+        <div class="snip">
+            <div class="word"> </div>
+            <br>
+            <p>I am interested in Web Development and AI.</p>
+            <p>I'm open to new oppportunities and conversations, download my resume and reach out!</p>
+        </div>
+        <div class="links">
+            <!-- Animate up and down bobbing -->
+            <a href="https://www.linkedin.com/in/noahclouser/" class="socials">
+                <img id="linkedin" src="/assets/linkedin_logo.png"/>
+            </a>
+            <!-- Animate up and down bobbing -->
+            <a href="https://www.github.com/NClouser1" class="socials">
+                <img id="github" src="/assets/github_logo.png"/>
+            </a>
+            <!-- Make downloadable -->
+            <a href="/portfolio/Resume.pdf" download>
+                <button class="resume">Resume &rarr;</button>
+            </a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="profile_pic">
+            <img src="/assets/profile_pic.JPG"/>
+        </div>
+        <div class="bio card-block">
+            <h3>About Me</h3>
+            <p>
+                Seeking an entry-level software position where I can apply my education and work experience to build impactful technology. I'm passionate 
+                about development, eager to grow, and ready to contribute to a mission-driven team.
+            </p>
+            <!-- <section class="interests">
+                <img src="/assets/Image (1).png"/>
+                <p><strong>Interests:</strong> Running, Golf, Formula 1</p>
+
+            </section> -->
+        </div>
+        <div class="why-hire card-block">
+            <h3>Why Hire Me?</h3>
+            <p>
+                My strong foundation in software fundamentals from NC State, combined with real-world problem-solving and collaboration experience in 
+                the workplace, has equipped me with well-rounded and adaptable skills.
+            </p>
+            <p>
+                I'm confident in my ability to quickly learn new technologies 
+                and make a meaningfully contribution to any team.
+            </p>
+        </div>
+        <!-- <h3>Technologies</h3> -->
+    </section>
+    
+    <section id="technologies">
+        <h3>Technologies</h3>
+        <div class="slides">
+            <div class="slide">
+                <img src="/assets/java.png">
+                <p>Java</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/react.png">
+                <p>React.js</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/javascript.png">
+                <p>JavaScript</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/html.png">
+                <p>HTML</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/css.png">
+                <p>CSS</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/nodejs.png">
+                <p>Node.js</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/python.png">
+                <p>Python</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/C.png">
+                <p>C</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/git.png">
+                <p>Git</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/sql.jpg">
+                <p>SQL</p>
+            </div>
+            <div class="slide">
+                <img src="/assets/docker.png">
+                <p>Docker</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="slides">
+            <div id="othello">
+                <a href="https://www.github.com/NClouser1/othello_player">Othello AI Agent &#8592; (click me)</a>
+                <p>
+                    Intelligent game-playing agent to compete in the board game <em>Othello (Reversi)</em>. 
+                    The AI evaluates board states and makes optimal moves using the Alpha-Beta Minimax algorithm with 
+                    custom heuristic function to simulate human-like strategy.
+                </p>
+                <p class="subheader"><strong>Technologies:</strong></p>
+                <div class=tech>
+                    <p>Java</p>
+                    <p>Alpha-Beta Minimax Algorithm</p>
+                    <p>Heuristics</p>
+                </div>
+                
+
+                <p class="subheader"><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Implemented turn-based game logic and valid move generation.</li>
+                    <li>Used depth-limited search to balance performance and decision quality.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="contact">
+    <div class="left">
+        <h3>Get in touch</h3><br>
+        <p>Reach out via email:&nbsp;&nbsp;&nbsp; <br><img src="/assets/email.png">&nbsp;<a href="mailto:noahclouser@gmail.com">noahclouser@gmail.com</a></p><br>
+        
+        
+    </div>
+    <div class="right">
+        <a href="https://www.linkedin.com/in/noahclouser/" class="socials">
+            <img id="linkedin" src="/assets/linkedin_gray.png"/>
+        </a>
+        <!-- Animate up and down bobbing -->
+        <a href="https://www.github.com/NClouser1" class="socials">
+            <img id="github" src="/assets/github_gray.png"/>
+        </a>
+    </div>
+</footer>
+</html>
